@@ -1,0 +1,7 @@
+# Source this file inside scripts
+#In bash, aliases are not expanded in shell scripts
+shopt expand_aliases
+
+# Set PATH Variable
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
